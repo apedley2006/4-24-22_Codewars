@@ -11,3 +11,10 @@ function toCsvText(array) {
   // good luck
  return array.join('\n')
 }
+
+// Multiplication table for number 8 kyu
+
+function multiTable(number) {
+  // good luck
+  return [1,2,3,4,5,6,7,8,9,10].map(item => `${item} * ${number} = ${item*number}`).join('\n')
+}
