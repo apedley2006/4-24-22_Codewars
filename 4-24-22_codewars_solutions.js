@@ -20,11 +20,24 @@ function multiTable(number) {
 }
 
 // Type of sum 8 kyu
+
 const typeOfSum = (a, b) => typeof (a + b)
 
 // Array plus array 8 kyu
+
 function arrayPlusArray(arr1, arr2) {
   let arr3 = arr1.map((num, idx) => num + arr2[idx])
   
   return arr3.reduce((a, b) => a+b)
+}
+
+// Can we divide it? 8 kyu
+
+function isDivideBy(number, a, b) {
+  // good luck
+  if (number % a === 0 && number % b === 0) {
+    return true
+  } else {
+    return false
+  }
 }
